@@ -1,10 +1,4 @@
 # -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-remote_theme: "alshedivat/al-folio"
-plugins:
-  - jekyll-remote-theme   # indispensable pour charger le thème
-
 baseurl: ""  
 url: "https://adrien-rougier.github.io"
   
