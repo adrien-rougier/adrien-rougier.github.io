@@ -1,0 +1,3 @@
+
+```liquid{% if include.src %}{% if include.link %}{% endif %}<img src=”{{ include.src }}” alt=”{{ include.alt
+default: ‘’ }}”>{% if include.link %}{% endif %}{% if include.caption %}{{ include.caption }}{% endif %}{% endif %}```
