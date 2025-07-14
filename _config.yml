@@ -1,7 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
+remote_theme: "alshedivat/al-folio"
+plugins:
+  - jekyll-remote-theme   # indispensable pour charger le thème
+  
 title: blank # the website title (if blank, full name will be used instead)
 first_name: You
 middle_name: R.
