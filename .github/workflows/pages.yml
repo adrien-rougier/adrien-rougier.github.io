@@ -2,13 +2,13 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]          # déploie à chaque push sur main
-  workflow_dispatch:            # bouton « Run workflow » manuel
+    branches: ["main"]         # déploiement à chaque push sur main
+  workflow_dispatch:           # bouton « Run workflow » manuel
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write               # nécessaire pour le déploiement
+  contents: read               # lecture du dépôt
+  pages: write                 # publication sur Pages
+  id-token: write              # OIDC pour Pages
 
 concurrency:
   group: "pages"
@@ -24,8 +24,8 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'          # version récente et supportée
-          bundler-cache: true          # accélère les builds suivants
+          ruby-version: '3.2'
+          bundler-cache: true
 
       - name: Install dependencies 📦
         run: bundle install --jobs 4 --retry 3
@@ -33,7 +33,8 @@ jobs:
       - name: Build with Jekyll 🔧
         run: bundle exec jekyll build -d _site
 
-      - name: Upload artifact 📤
+      # ⚠️ la bonne action : **upload-pages-artifact@v2**
+      - name: Upload generated site 📤
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
