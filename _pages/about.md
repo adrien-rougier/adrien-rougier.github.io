@@ -7,12 +7,46 @@ permalink: /
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   
 ---
-<br><br>
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br>
+I am currently a postdoc at the Center for Research in Economics and Statistics (CREST) and a member of the computationnal social sciences team of Institut Polytechnique de Paris.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My ongoing research project includes Natural Langage processing and Computer vision on French medias. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned a joint Phd in Political Science at Université Libre de Bruxelles and in Economics at University Lyon 2 (Triangle). 
+
+<div id="particles-js" style="width:100%; height:300px;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
+    opacity: { value: 0.5 },
+    size: { value: 3 },
+    line_linked: {
+      enable: true,
+      distance: 120,
+      color: "#ffffff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 1.2
+    }
+  },
+  interactivity: {
+    events: {
+      onhover: { enable: true, mode: "grab" }
+    }
+  },
+  retina_detect: true
+});
+</script>
+
