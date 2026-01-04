@@ -16,37 +16,34 @@ I am currently a postdoc at the Center for Research in Economics and Statistics 
 My ongoing research project includes Natural Langage processing and Computer vision on French medias. 
 
 I earned a joint Phd in Political Science at Université Libre de Bruxelles and in Economics at University Lyon 2 (Triangle). 
+<div id="particles-js"></div>
 
-<div id="particles-js" style="width:100%; height:300px;"></div>
+<style>
+#particles-js{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #ffffff;
+}
+</style>
 
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
 <script>
-particlesJS("particles-js", {
-  particles: {
-    number: { value: 80 },
-    color: { value: "#ffffff" },
-    shape: { type: "circle" },
-    opacity: { value: 0.5 },
-    size: { value: 3 },
-    line_linked: {
-      enable: true,
-      distance: 120,
-      color: "#ffffff",
-      opacity: 0.4,
-      width: 1
-    },
-    move: {
-      enable: true,
-      speed: 1.2
-    }
-  },
-  interactivity: {
-    events: {
-      onhover: { enable: true, mode: "grab" }
-    }
-  },
-  retina_detect: true
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.particlesJS) {
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 70 },
+        color: { value: "#8a8a8a" },
+        shape: { type: "circle" },
+        opacity: { value: 0.35 },
+        size: { value: 3 },
+        line_linked: { enable: true, distance: 150, color: "#b0b0b0", opacity: 0.35, width: 1 },
+        move: { enable: true, speed: 1 }
+      },
+      interactivity: { events: { onhover: { enable: true, mode: "grab" } } },
+      retina_detect: true
+    });
+  }
 });
 </script>
-
