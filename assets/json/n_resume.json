@@ -47,15 +47,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "Free University of Brussels / Lyon 2 University",
+      "location": "Brussels, Belgium / Lyon, France",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Political Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+       "startDate": "2019-10-01",
+      "endDate": "2025-09-24",
+      "courses": [""]
     }
   ],
   "awards": [

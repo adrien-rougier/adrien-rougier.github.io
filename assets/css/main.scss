@@ -23,3 +23,22 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ---- HOME PAGE LAYOUT ADJUSTMENTS ---- */
+
+/* Descendre tout le contenu */
+.container.mt-5 {
+  margin-top: 120px !important;
+}
+
+
+/* Titre principal */
+h1 {
+  font-size: 3rem;
+}
+
+/* Texte de présentation */
+p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
