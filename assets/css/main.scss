@@ -28,13 +28,14 @@ $max-content-width: {{ site.max_width }};
 
 /* Descendre tout le contenu */
 .container.mt-5 {
-  margin-top: 120px !important;
+  margin-top: 35px !important;
 }
 
 
 /* Titre principal */
 h1 {
   font-size: 3rem;
+   margin-left: -0px;
 }
 
 /* Texte de présentation */
@@ -42,3 +43,57 @@ p {
   font-size: 1.15rem;
   line-height: 1.7;
 }
+
+/* taille photo */
+/* agrandir le bloc profile (la colonne de gauche) */
+.profile {
+  width: 520px;       /* <- augmente ici (ex: 600px) */
+  max-width: none !important;
+}
+
+/* l’image prend toute la largeur du bloc */
+.profile img {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+}
+
+.profile {
+  margin-left: -40px;  /* ajuste : -40, -60, -100 */
+}
+
+#vanta-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+main,
+.page-content,
+.wrapper,
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+
+html, body {
+  background: transparent !important;
+}
+
+/* Ton thème met souvent un fond sur le container */
+.container {
+  background: transparent !important;
+}
+
+
+header nav.navbar{
+  display: none !important;
+}
+
+
+
+

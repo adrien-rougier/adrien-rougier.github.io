@@ -1,0 +1,9 @@
+---
+title: "Liens pour ameliorer"
+author: "Adrien"
+date: "2026-01-06"
+output: html_document
+---
+
+## pour des animations 
+ https://www.vantajs.com/?effect=net#(backgroundAlpha:1,backgroundColor:16777215,color:14411765,gyroControls:!f,maxDistance:31,minHeight:200,minWidth:200,mouseControls:!t,points:8,scale:1,scaleMobile:1,showDots:!t,spacing:16,touchControls:!t)

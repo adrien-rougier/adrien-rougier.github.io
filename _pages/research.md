@@ -3,21 +3,27 @@ layout: page
 title: Research
 permalink: /research/
 description:
-nav: true
+nav: false
 nav_order: 2
 display_categories:
 horizontal: false
 ---
 
+<img
+  src="{{ '/assets/img/construction.gif' | relative_url }}"
+  alt="Animation de chantier"
+  style="width:280px; max-width:70vw; display:block; margin:0 auto 1rem;"
+/>
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+# {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography %}
+#  {% bibliography %}
 
 </div>
 

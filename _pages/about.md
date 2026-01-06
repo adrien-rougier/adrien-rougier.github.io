@@ -6,18 +6,42 @@ permalink: /
 
 profile:
   align: left
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: # prof_pic.jpg
+  image_circular: tr # crops the image to make it circular
   
 ---
-<br>
-I am currently a postdoc at the Center for Research in Economics and Statistics (CREST) and a member of the computationnal social sciences team of Institut Polytechnique de Paris.
 
-My ongoing research project includes Natural Langage processing and Computer vision on French medias. 
 
-I earned a joint Phd in Political Science at Université Libre de Bruxelles and in Economics at University Lyon 2 (Triangle). 
-<div id="particles-js"></div>
+I am currently a postdoc at the
+[Center for Research in Economics and Statistics (CREST)](https://crest.science) / [Institut Polytechnique de Paris](https://www.ip-paris.fr/), within the [Computational Social Science team](https://www.css.cnrs.fr/).
 
+
+The rest is coming soon! 
+ <br>
+  <br>
+<img
+  src="{{ '/assets/img/construction.gif' | relative_url }}"
+  alt=""
+  style="
+    width:380px;
+    max-width:70vw;
+    display:block;
+    margin:0 auto 1.5rem;
+    padding: 12px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  "
+/>
+
+<!-- My ongoing research project includes Natural Langage processing and Computer vision on French medias. 
+
+# I earned a joint Phd in Political Science at Université Libre de Bruxelles and in Economics at University Lyon 2 (Triangle). 
+
+
+# <div id="particles-js"></div> -->
+
+<!--
 <style>
 #particles-js{
   position: fixed;
@@ -47,3 +71,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 </script>
+-->
+
