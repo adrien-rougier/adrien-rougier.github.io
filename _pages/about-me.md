@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description:
+permalink: /about-me/
+title: About me
 nav: true
-nav_order: 1
+nav_order: 2
+description:
 ---
 
 <img

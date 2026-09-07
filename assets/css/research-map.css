@@ -1,0 +1,63 @@
+.research-stage{
+  width: 100%;
+  min-height: 78vh;
+  padding: 18px 0 30px;
+}
+
+/* SVG transparent : on garde TON fond de site */
+.research-map{
+  width: min(1200px, 100%);
+  height: min(720px, 78vh);
+  display: block;
+  margin: 0 auto;
+  overflow: visible;            /* <- labels can extend past the viewBox */
+
+  background: transparent;      /* <- important */
+  border: none;                 /* <- important */
+  border-radius: 0;             /* <- important */
+}
+
+/* liens internes */
+.link{
+  stroke: rgba(0,0,0,0.22);     /* sur fond clair = plutôt sombre */
+  stroke-width: 1.2;
+}
+
+/* planète projet */
+.planet{
+  fill: rgba(255,122,60,0.85);
+  stroke: rgba(0,0,0,0.12);
+  stroke-width: 1;
+  filter: drop-shadow(0 12px 18px rgba(0,0,0,0.18));
+}
+
+.planet-core{
+  fill: rgba(255,122,60,0.25);
+}
+
+/* satellites */
+.sat{
+  fill: rgba(0,0,0,0);
+  stroke: rgba(70, 170, 95, 0.90);   /* vert plus doux sur fond clair */
+  stroke-width: 1.6;
+  opacity: 0.95;
+}
+
+.sat-dot{
+  fill: rgba(70, 170, 95, 0.78);
+  opacity: 0.85;
+}
+
+/* labels (noirs sur fond clair) */
+.proj-label{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  fill: rgba(0,0,0,0.88);
+  letter-spacing: -0.02em;
+}
+
+.proj-sub{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  fill: rgba(0,0,0,0.55);
+}

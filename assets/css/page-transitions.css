@@ -1,0 +1,107 @@
+#pt-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0;
+  overflow: hidden;
+  background: #05070d;
+}
+
+#pt-overlay.pt-active {
+  pointer-events: all;
+}
+
+/* ---------- shared exit/enter opacity ---------- */
+#pt-overlay.pt-exit {
+  animation: pt-fade-in 0.28s ease forwards;
+}
+
+#pt-overlay.pt-enter {
+  animation: pt-fade-out 0.5s ease 0.35s forwards;
+}
+
+@keyframes pt-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pt-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* ================= COMPILING VARIANT ================= */
+.pt-hack-scene {
+  position: absolute;
+  inset: 0;
+  font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: #4dff9e;
+  padding: 4vh 4vw;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.pt-hack-lines {
+  opacity: 0;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#pt-overlay.pt-exit .pt-hack-lines,
+#pt-overlay.pt-enter .pt-hack-lines {
+  animation: pt-hack-fade 0.85s ease forwards;
+}
+
+@keyframes pt-hack-fade {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.pt-hack-status {
+  position: absolute;
+  left: 4vw;
+  bottom: 4vh;
+  color: #4dff9e;
+  font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9rem;
+  opacity: 0;
+}
+
+#pt-overlay.pt-exit .pt-hack-status,
+#pt-overlay.pt-enter .pt-hack-status {
+  animation: pt-caption-fade 0.85s ease forwards;
+}
+
+@keyframes pt-caption-fade {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.pt-hack-status::after {
+  content: "";
+  display: inline-block;
+  width: 0.55em;
+  height: 1em;
+  margin-left: 0.2em;
+  background: #4dff9e;
+  vertical-align: text-bottom;
+  animation: pt-cursor-blink 0.5s steps(1) infinite;
+}
+
+@keyframes pt-cursor-blink {
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #pt-overlay,
+  #pt-overlay * {
+    animation: none !important;
+  }
+}

@@ -1,75 +1,50 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: left
-  image: # prof_pic.jpg
-  image_circular: tr # crops the image to make it circular
-  
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
 
-I am currently a postdoc at the
-[Center for Research in Economics and Statistics (CREST)](https://crest.science) / [Institut Polytechnique de Paris](https://www.ip-paris.fr/), within the [Computational Social Science team](https://www.css.cnrs.fr/).
+<p class="lead">
+  I am a postdoctoral researcher at the
+  <a href="https://crest.science">Center for Research in Economics and Statistics (CREST)</a>,
+  <a href="https://www.ip-paris.fr/">Institut Polytechnique de Paris</a>, where I am part of the
+  <a href="https://www.css.cnrs.fr/team/">Computational Social Science (CSS) team</a>.
+</p>
 
+<p class="lead">
+  One project we work on is
+  <a href="https://activetigger.com/" target="_blank" rel="noopener noreferrer">ActiveTigger</a>, an
+  open-source, no-code annotation and classification tool for social science research. Check out the
+  poster we just made
+  <button type="button" class="poster-thumb-btn" id="poster-thumb-btn" aria-haspopup="dialog">
+    &rarr;
+    {% include figure.liquid loading="eager" path="assets/img/poster_activetigger_thumb.png" class="poster-thumb" alt="ActiveTigger poster" %}
+  </button>
+</p>
 
-The rest is coming soon! 
- <br>
-  <br>
-<img
-  src="{{ '/assets/img/construction.gif' | relative_url }}"
-  alt=""
-  style="
-    width:380px;
-    max-width:70vw;
-    display:block;
-    margin:0 auto 1.5rem;
-    padding: 12px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-  "
-/>
+<p class="lead">
+  From <strong>December 2026 to March 2027</strong>, I will be a visiting researcher at the
+  <a href="https://yuikofujita.com/" target="_blank" rel="noopener noreferrer">I-Ethnography Lab</a>, part
+  of the Interfaculty Initiative in Information Studies (iii) at The University of Tokyo. If you're
+  around, feel free to reach out!
+</p>
 
-<!-- My ongoing research project includes Natural Langage processing and Computer vision on French medias. 
+<div class="tokyo-logo-wrap">
+  {% include figure.liquid loading="eager" path="assets/img/logo_tokyo.png" class="tokyo-logo" alt="University of Tokyo" %}
+</div>
 
-# I earned a joint Phd in Political Science at Université Libre de Bruxelles and in Economics at University Lyon 2 (Triangle). 
+<hr>
 
+<h2>Contact</h2>
+<p class="lead">
+  <a href="mailto:adrien.rougier@ensae.fr">adrien.rougier@ensae.fr</a>
+</p>
 
-# <div id="particles-js"></div> -->
+<div id="poster-lightbox" class="poster-lightbox" hidden>
+  <button type="button" class="poster-lightbox-close" id="poster-lightbox-close" aria-label="Close">&times;</button>
+  <img src="{{ '/assets/img/poster_activetigger_large.png' | relative_url }}" alt="ActiveTigger poster (large)">
+</div>
 
-<!--
-<style>
-#particles-js{
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background: #ffffff;
-}
-</style>
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.particlesJS) {
-    particlesJS("particles-js", {
-      particles: {
-        number: { value: 70 },
-        color: { value: "#8a8a8a" },
-        shape: { type: "circle" },
-        opacity: { value: 0.35 },
-        size: { value: 3 },
-        line_linked: { enable: true, distance: 150, color: "#b0b0b0", opacity: 0.35, width: 1 },
-        move: { enable: true, speed: 1 }
-      },
-      interactivity: { events: { onhover: { enable: true, mode: "grab" } } },
-      retina_detect: true
-    });
-  }
-});
-</script>
--->
-
+<script src="{{ '/assets/js/home.js' | relative_url }}"></script>

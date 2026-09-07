@@ -27,6 +27,7 @@ layout: default
     </header>
 
     <article>
+      <div class="clearfix">{{ content }}</div>
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>

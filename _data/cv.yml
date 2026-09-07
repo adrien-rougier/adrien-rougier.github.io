@@ -3,103 +3,201 @@
   contents:
     - name: Full Name
       value: Adrien Rougier
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Current Position
+      value: Postdoctoral researcher, Computational Social Science (CSS) team
+    - name: Institution
+      value: CREST — Institut Polytechnique de Paris / Hi! PARIS
+    - name: Location
+      value: Palaiseau, France
+    - name: Email
+      value: <a href="mailto:adrien.rougier@ensae.fr">adrien.rougier@ensae.fr</a>
     - name: Languages
-      value: English, German
+      value: French (native), English (fluent), Japanese (intermediate, JLPT-equivalent B2), Spanish (intermediate)
+
+- title: Academic Positions
+  type: time_table
+  contents:
+    - title: Postdoctoral researcher in computational social science
+      institution: "CREST — Computational Social Science (CSS) team, Institut Polytechnique de Paris"
+      year: 2026 - 2028
+      description:
+        - "Hi! PARIS program (HEC Paris — Institut Polytechnique de Paris — Inria)"
+        - Co-organiser of the AI & Social Science seminar (CSS-IPP), since January 2026
+    - title: Doctoral researcher (joint PhD / cotutelle)
+      institution: "École doctorale d'économie, Université Lumière Lyon 2 & École doctorale en sciences politiques et sociales, Université libre de Bruxelles"
+      year: 2019 - 2025
+      description:
+    - title: Teaching and research assistant, Department of Political Science
+      institution: "Faculté de Philosophie et Sciences sociales, Université libre de Bruxelles"
+      year: 2019 - 2025
+      description:
+        - "Research (50%) — Teaching / Administration (50%), 6-year appointment"
+
+- title: Doctoral Thesis
+  type: time_table
+  contents:
+    - title: <em>Différences et désaccords entre économistes. Le cas de l'après-crise de 2008 en France</em>
+      institution: Defended 24 September 2025
+      year:
+      description:
+        - "Supervisors: Agnès Labrousse, Jean-Yves Pranchère"
+        - "Committee: Jean-Luc De Meulemeester, Étienne Ollion, Laurence Scialom, Mathieu Hauchecorne, Arthur Jatteau"
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Free University of Brussels / 
-      year: 2025
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Master in Social Sciences (Research)
-      institution: École Normale Supérieure de la rue d'Ulm
-      year: 2016-2019
-      description:
-    - title: Master in Political Theory (Research)
-      institution: SciencesPo Paris
-      year: 2016-2019
-      description:
-    - title: Master in Political Economy (Research)
-      institution: École des Hautes études en sciences sociales
-      year: 2017-2018
-      description:
-    - title: Master 1 in Law
-      institution: Paris I Panthéon Sorbonne
+    - title: "Département de sciences sociales"
+      institution: École Normale Supérieure (Ulm)
+      year: 2018-2019
+    - title: "Département d'économie"
+      institution: École Normale Supérieure (Ulm)
+      year: 2016-2018
+    - title: Master's in Political Theory (research), 2nd year
+      institution: Sciences Po Paris
+      year: 2018-2019
+    - title: Master's in Political Theory (research), 1st year
+      institution: Sciences Po Paris
       year: 2016-2017
-      description:
+    - title: Master's in Economics of Institutions, 2nd year
+      institution: École des Hautes Études en Sciences Sociales — Université Paris Nanterre
+      year: 2017-2018
+    - title: Research internship (2 months)
+      institution: Institute of Political Science, Academia Sinica, Taipei (Taiwan) — Ministry of Science and Technology grant
+      year: 2017
+    - title: Master 1 in Public Law / Licence in Private Law / Licence in Economics
+      institution: Université Paris 1 Panthéon-Sorbonne
+      year: 2013-2017
+    - title: Semester exchange
+      institution: New York University
+      year: 2015
 
-- title: Experience
+- title: Selected Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
+    - title: "Le localisme universitaire, nouvelles évaluations"
+      institution: "with O. Godechot, R. Issiakou, Y. Renisio — La Vie des idées"
+      year: 2025
+      linkitems:
+        - link: https://laviedesidees.fr/Le-localisme-universitaire-nouvelles-evaluations
+          linkname: article
+    - title: "Schoolness Effect and Academic Journals: The Case of the Revue de la Régulation (2007-2023)"
+      institution: Revue de la régulation. Capitalisme, institutions, pouvoirs
+      year: 2024
+      linkitems:
+        - link: https://journals.openedition.org/regulation/24647
+          linkname: article
+    - title: "Academic inbreeding — new estimates"
+      institution: with co-authors — Books & Ideas
+      year: 2026
+    - title: Full publication list and work in progress
+      institution:
+      year:
+      linkitems:
+        - link: /research/#publications
+          linkname: research page
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: Research Stays & Training
+  type: time_table
+  contents:
+    - title: Visiting researcher (ULB fellowship)
+      institution: "Institut français de recherche sur le Japon à Tokyo (UMIFRE 19, CNRS-MAEDI)"
+      year: Jun-Sep 2025
+    - title: Visiting researcher (ULB fellowship)
+      institution: "Institut français de recherche sur le Japon à Tokyo (UMIFRE 19, CNRS-MAEDI)"
+      year: Feb-Apr 2024
+    - title: Visiting researcher (incoming)
+      institution: "The Interfaculty Initiative in Information Studies, University of Tokyo"
+      year: Dec 2026 - Mar 2027
+    - title: "Japanese language certificate, level B2 (120h)"
+      institution: Institut National des Langues et Civilisations Orientales (INALCO)
+      year: 2022-2024
+    - title: Machine learning for social science (48h)
+      institution: QuantiLille Summer School (CNRS)
+      year: 2023
+    - title: 4-year doctoral contract in political science (declined)
+      institution: European University Institute
+      year: 2019
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+- title: Teaching & Academic Responsibilities
+  type: time_table
+  contents:
+    - title: "Globalization Studies (POLI-D434), M1"
+      institution: Teaching Assistant — Université libre de Bruxelles
+      year: 2025
+    - title: "Final dissertation seminar, quantitative methods (POLI-D543), M2"
+      institution: Université libre de Bruxelles
+      year: 2025
+    - title: "Introduction to Research in Political Science, quantitative methods (POLI-D213), L2"
+      institution: Université libre de Bruxelles
+      year: 2025
+    - title: "Politique économique (POLI-D302), L2"
+      institution: Teaching Assistant — Université libre de Bruxelles
+      year: 2023
+    - title: "International Political Economy (POLI-D445), M1"
+      institution: Teaching Assistant — Université libre de Bruxelles
+      year: 2021-2023
+    - title: "Histoire de la pensée politique I (POLI-D102), L1"
+      institution: Teaching Assistant — Université libre de Bruxelles
+      year: 2019-2021
+    - title: "Économie (classes préparatoires ECT, L2/L3)"
+      institution: Le Rebours, Paris
+      year: 2022
+    - title: Coordinator of political science student exchanges
+      institution: Université libre de Bruxelles
+      year: Aug 2023 - Sep 2025
+    - title: Member, Faculty Ethics Committee
+      institution: Faculté de Philosophie et Sciences sociales, Université libre de Bruxelles
+      year: Apr 2024 - Apr 2025
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Scientific Organisation
+  type: time_table
+  contents:
+    - title: "Co-organiser, open session « Histoire et sociologie des économistes »"
+      institution: 15e congrès de l'AFEP, Saint-Brieuc
+      year: 2026
+    - title: Co-organiser, AI & Social Science seminar
+      institution: CSS-IPP
+      year: since 2026
+    - title: "Co-organiser, open session « Histoire et sociologie des économistes » (11 speakers)"
+      institution: 14e congrès de l'AFEP, Bordeaux
+      year: 2025
+    - title: "Organiser, closed session « Sociologie des économistes en France » (6 speakers)"
+      institution: 11e congrès de l'AFEP, Amiens
+      year: 2022
+    - title: "Co-organiser, Doctoriales (26 speakers)"
+      institution: 11e congrès de l'AFEP, Amiens
+      year: 2022
+    - title: "Organiser, open session « Pluralisme, orthodoxie et hétérodoxie » (21 speakers)"
+      institution: 10e congrès de l'AFEP, Toulouse
+      year: 2021
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-# # 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-#- title: Academic Interests
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items:
-#        - Description 1.
-#        - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
-
-# - title: Other Interests
-#  type: list
-#  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming languages
+      items:
+        - R, Python
+    - title: IDE
+      items:
+        - RStudio, Positron, VS Code
+    - title: Technical writing
+      items:
+        - LaTeX, Markdown, Quarto
+    - title: Web scraping
+      items:
+        - HTML/CSS, JavaScript, SPARQL
+    - title: Data cleaning
+      items:
+        - OpenRefine
+    - title: Network analysis
+      items:
+        - Gephi
+    - title: Collaborative environments
+      items:
+        - Overleaf, GitHub
+    - title: Graphic editing
+      items:
+        - Illustrator, Inkscape
+    - title: Annotation
+      items:
+        - ActiveTigger
