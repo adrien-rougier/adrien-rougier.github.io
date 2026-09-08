@@ -13,4 +13,3 @@ nav_order: 2
   style="width:280px; max-width:70vw; display:block; margin:0 auto 1rem;"
 />
 
-# Coming soon!

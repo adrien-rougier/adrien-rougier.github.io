@@ -55,7 +55,7 @@ nav_order: 1
       </ul>
     </li>
 
-    <li>“Conferences and the Making of a School. Régulation Theory between France and Japan” <span class="fr-flag" role="img" aria-label="In French" title="In French"></span> – book chapter in the proceedings of the <a href="https://sms.univ-tlse2.fr/accueil-sms/agenda/archives-des-actualites/colloque-reset-socio-histoire-des-congres-colloques-et-reseaux-academiques-transnationaux-a-lepoque-contemporaine" target="_blank" rel="noopener noreferrer">RESET conference²</a>, currently in preparation with <a href="https://www.editionsdelasorbonne.fr/nouveautes" target="_blank" rel="noopener noreferrer">Sorbonne University Press</a></li>
+    <li>“International Conferences and the Making of a School. Regulation Theory between France and Japan” <span class="fr-flag" role="img" aria-label="In French" title="In French"></span> – book chapter in the proceedings of the <a href="https://sms.univ-tlse2.fr/accueil-sms/agenda/archives-des-actualites/colloque-reset-socio-histoire-des-congres-colloques-et-reseaux-academiques-transnationaux-a-lepoque-contemporaine" target="_blank" rel="noopener noreferrer">RESET conference²</a>, currently in preparation with <a href="https://www.editionsdelasorbonne.fr/nouveautes" target="_blank" rel="noopener noreferrer">Sorbonne University Press</a></li>
 
     <li><em>Making Sense of High-Dimensional Data: A Primer on Self-Organising Maps</em> – in the <a href="https://www.css.cnrs.fr/tutorials-and-resources/" target="_blank" rel="noopener noreferrer">CSS IP-Paris tutorials</a></li>
 
