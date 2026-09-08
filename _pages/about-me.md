@@ -3,7 +3,7 @@ layout: page
 permalink: /about-me/
 title: About me
 nav: true
-nav_order: 2
+nav_order: 3
 description:
 ---
 <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">

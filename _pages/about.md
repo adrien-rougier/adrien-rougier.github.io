@@ -22,7 +22,7 @@ permalink: /
 
 <div class="row align-items-center hero-row">
   <div class="col-md-8">
-    <p class="lead">
+    <p class="lead text-justify">
       One great project I'm involved in is
       <a href="https://activetigger.com/" target="_blank" rel="noopener noreferrer">ActiveTigger</a>,
      an open-source annotation and classification tool for text and images, designed for social science research. Check out the
@@ -38,7 +38,7 @@ permalink: /
 
 <div class="row align-items-center hero-row">
   <div class="col-md-8">
-    <p class="lead">
+    <p class="lead text-justify">
       From <strong>December 2026 to March 2027</strong>, I will be a visiting researcher at the
       <a href="https://yuikofujita.com/" target="_blank" rel="noopener noreferrer">I-Ethnography Lab</a>,
       within the Interfaculty Initiative in Information Studies (iii) at the University of Tokyo. If

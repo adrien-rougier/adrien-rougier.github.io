@@ -70,7 +70,7 @@ nav_order: 1
       <ul class="sub-list">
         <li><a href="https://booksandideas.net/Academic-inbreeding-new-estimates" target="_blank" rel="noopener noreferrer">English version</a> – <em>Books &amp; Ideas</em>, 3 March 2026</li>
         <li><a href="https://laviedesidees.fr/Le-localisme-universitaire-nouvelles-evaluations" target="_blank" rel="noopener noreferrer">Version française</a> – <em>La Vie des idées</em>, 18 November 2025 <span class="fr-flag" role="img" aria-label="In French" title="In French"></span></li>
-        <li><a href="{{ '/assets/files/replication_package_localisme.zip' | relative_url }}">Replication package</a> (ZIP)</li>
+        <li><a href="http://olivier.godechot.free.fr/hopfichiers/localisme_2025.zip" target="_blank" rel="noopener noreferrer">Replication package</a> (ZIP)</li>
       </ul>
     </li>
 
