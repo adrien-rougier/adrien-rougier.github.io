@@ -15,7 +15,8 @@
 }
 
 .poster-thumb {
-  width: 150px;
+  width: 210px;
+  max-width: 90%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
@@ -29,8 +30,11 @@
 
 .tokyo-logo {
   width: 210px;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  transform: translateY(-10px); /* ajuste la valeur */
 }
 
 .poster-lightbox {
