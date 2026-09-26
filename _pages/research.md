@@ -32,8 +32,8 @@ nav_order: 1
 
     <li><em>Picturing Politics. A Large-Scale Analysis of Press and Instagram Photographs of the 2022 French Presidential Candidates</em> – with <a href="https://fr.linkedin.com/in/francesco-colonna-3aa0581a1" target="_blank" rel="noopener noreferrer">Francesco Colonna</a>
       <ul class="sub-list">
-        <li><a href="{{ '/assets/files/Slides_Images_French_short.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Short slides</a>, presented at <a href="https://messh26.sciencesconf.org/?lang=fr" target="_blank" rel="noopener noreferrer">meSSH 2026</a> <span class="fr-flag" role="img" aria-label="In French" title="In French"></span></li>
-        <li><a href="{{ '/assets/files/Slides_Images_Long_presentation_english.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Longer slides</a>, older but more detailed, from an internal seminar</li>
+        <li><a href="{{ '/assets/files/ROUGIER_Slides_Images_Colonna_MeSHS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Short slides</a>, presented at <a href="https://messh26.sciencesconf.org/?lang=fr" target="_blank" rel="noopener noreferrer">meSSH 2026</a> <span class="fr-flag" role="img" aria-label="In French" title="In French"></span></li>
+        <li><a href="{{ '/assets/files/ROUGIER_Slides_Images_Colonna_older_version.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Longer slides</a>, older but more detailed, from an internal seminar</li>
       </ul>
     </li>
 
