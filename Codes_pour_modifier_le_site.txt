@@ -1,0 +1,41 @@
+Pour modifier du texte
+
+  1. Trouve le bon fichier
+
+┌──────────┬────────────────────┐
+│ Contenu  │      Fichier       │
+├──────────┼────────────────────┤
+│ Accueil  │ _pages/about.md    │
+├──────────┼────────────────────┤
+│ Research │ _pages/research.md │
+├──────────┼────────────────────┤
+│ About me │ _pages/about-me.md │
+├──────────┼────────────────────┤
+│ Teaching │ _pages/teaching.md │
+└──────────┴────────────────────┘
+
+Tout est dans ~/adrien-rougier.github.io/.
+
+2. Modifie le texte
+
+Ouvre le fichier avec un éditeur de texte (TextEdit, VS Code, etc.), change le texte que tu veux, sauvegarde.
+
+3. (Optionnel) Vérifie en local avant de publier
+
+cd ~/adrien-rougier.github.io
+bundle exec jekyll serve
+Ouvre http://127.0.0.1:4000/ pour voir le résultat. Une fois satisfait, arrête le serveur (Ctrl+C dans le terminal, ou ! pkill -f jekyll ici).
+
+4. Publie en ligne (commit + push)
+
+cd ~/adrien-rougier.github.io
+git add _pages/teaching.md _pages/research.md
+git commit -m "Mise à jour Teaching et Research"
+git push origin main
+
+(remplace _pages/about.md etc par le fichier que tu as réellement modifié)
+
+
+5. Attends ~1-2 minutes
+
+Le site se reconstruit automatiquement. Rafraîchis avec Cmd+Shift+R pour éviter le cache navigateur.

@@ -11,7 +11,7 @@ description:
 <div class="minimal-section">
   <h2>Academic Positions</h2>
   <ul class="bullet-list bullet-teal">
-    <li><span class="year">2026–2028</span>Postdoctoral Researcher in Computational Social Science, CREST, IP-Paris</li>
+    <li><span class="year">2026 – present</span>Postdoctoral Researcher in Computational Social Science, CREST, IP-Paris</li>
     <li><span class="year">2019–2025</span>Junior Lecturer in Political Science (50% research / 50% teaching), Faculty of Philosophy and Social Sciences, Université libre de Bruxelles</li>
   </ul>
 </div>

@@ -120,25 +120,17 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
+  - Codes_pour_modifier_le_site.txt
+  - Liens pour ameliorer/
+  - "*.Rproj"
+  - .Rproj.user/
+  - _pages/.Rhistory
 keep_files:
   - CNAME
   - .nojekyll
